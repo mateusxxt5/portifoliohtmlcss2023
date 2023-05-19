@@ -15,7 +15,7 @@ header{
 .nav-bar{
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem 6rem;
+    padding: 1rem 4rem;
 }
 
 .logo{
@@ -44,6 +44,8 @@ header{
 
 .nav-link{
     padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
     text-decoration: none;
     color:#fff;
     font-size: 1.15rem;
@@ -51,6 +53,8 @@ header{
     transition: background .4s;
 }
 
-.nav-link :hover{
+.nav-link:hover{
     background-color: #5F9EA0;
+    border-radius: 10px;
+
 }
