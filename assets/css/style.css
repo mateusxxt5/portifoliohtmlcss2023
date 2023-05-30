@@ -220,3 +220,34 @@ footer {
     }
     
 }
+
+.titulo {
+    padding-left: 40px;
+    color: #fff;
+    background-color:#5F9EA0;
+    border-radius: 10px;
+    
+}
+
+.img-fluid {
+    border-style: solid;
+    border-radius:30px;
+    
+    
+    
+    
+}
+
+.formação-div {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+@media screen and (max-width: 768px){
+    .formação-div {
+        grid-template-columns: repeat(1,1fr);
+        gap: 2rem;
+    }
+    
+}
+
