@@ -12,7 +12,10 @@
     margin: 0 auto;
     font-family: 'Open Sans' , sans-serif;
     box-sizing: border-box;
+
 }
+
+
 
 
 header{
@@ -115,9 +118,6 @@ header{
     }
 }
 
-main {
-    height: 80vh;
-}
 
 footer {
     width: 100%;
@@ -229,14 +229,7 @@ footer {
     
 }
 
-.img-fluid {
-    border-style: solid;
-    border-radius:30px;
-    
-    
-    
-    
-}
+
 
 .formação-div {
     display: grid;
@@ -274,3 +267,16 @@ footer {
     
 }
 
+
+.portifolio-div {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+@media screen and (max-width: 518px){
+    .portifolio-div {
+        grid-template-columns: repeat(1,1fr);
+        gap: 2rem;
+    }
+    
+}
