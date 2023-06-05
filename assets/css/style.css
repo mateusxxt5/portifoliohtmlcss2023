@@ -39,11 +39,6 @@ header{
     color: #fff
 }
 
-.logo-link{
-    text-decoration: none;
-    color: #fff;
-}
-
 .nav-list{
     display: flex;
     align-items: center;
